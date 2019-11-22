@@ -1,0 +1,6 @@
+<view class="container">
+<button  >追踪进度 </button>
+<label>在路上</label>
+<label>派送中</label>
+<label>完成派送</label>
+</view>

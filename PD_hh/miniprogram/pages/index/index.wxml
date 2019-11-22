@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+<van-grid gutter="{{ 20 }}" column-num="1" border="{{true}}">
+ <image
+      style="width: 100%; height: 90px;"
+      src="https://img.yzcdn.cn/vant/apple-1.jpg"
+    />
+  <van-grid-item icon="smile-o" text="代取快递" data-help="代取快递" bindtap="helpSth" square="{{true}}" />
+  <van-grid-item icon="smile-o" text="代买饭" data-help="代买饭"  bindtap="helpSth" square="{{true}}" />
+  <van-grid-item icon="smile-o" text="代买零食" data-help="代买零食"  bindtap="helpSth" square="{{true}}" />
+</van-grid>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "代代代",
+  "usingComponents": {
+    "swiper": "/components/swiper/swiper"
+  }
+}

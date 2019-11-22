@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/address/address",
+    "pages/enterExpressDelivery/publishNeed/publishNeed",
+    "pages/enterExpressDelivery/robNeed/robNeed",
+    "pages/enterExpressDelivery/followTracks/followTracks",
+    "pages/me/me",
+    "pages/enterExpressDelivery/enterExpressDelivery",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#fbbd08",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fbbd08",
+    "navigationBarTitleText": "Passionate Desert",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "selectedColor": "#EEAD0E",
+    "color": "#878787",
+    "backgroundColor": "#FFF5EE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发布需求",
+        "iconPath": "images/tabBar/homepage-sel.png",
+        "selectedIconPath": "images/tabBar/homepage.png"
+      },
+      {
+        "pagePath": "pages/enterExpressDelivery/robNeed/robNeed",
+        "text": "抢单",
+        "iconPath": "images/tabBar/cart-sel.png",
+        "selectedIconPath": "images/tabBar/cart.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tabBar/me-sel.png",
+        "selectedIconPath": "images/tabBar/me.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+     "van-grid": "vant-weapp/dist/grid/index",
+    "van-grid-item": "vant-weapp/dist/grid-item/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-image": "vant-weapp/dist/image/index",
+    "van-panel": "vant-weapp/dist/panel/index",
+    "van-row": "vant-weapp/dist/row/index",
+    "van-col": "vant-weapp/dist/col/index",
+    "van-field": "vant-weapp/dist/field/index"
+  }
+}

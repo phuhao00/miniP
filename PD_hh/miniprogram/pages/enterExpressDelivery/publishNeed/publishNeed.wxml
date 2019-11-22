@@ -1,0 +1,7 @@
+<view class="container">
+<button >发布需求 </button>
+<label>描述</label>
+<textarea>
+</textarea>
+<button >提交</button>
+</view>
