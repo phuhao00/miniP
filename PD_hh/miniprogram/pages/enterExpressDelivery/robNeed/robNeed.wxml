@@ -1,4 +1,16 @@
-<view class="container">
-<button  >抢单 </button>
-
+<van-divider contentPosition="right"></van-divider>
+<van-grid column-num="{{1}}" wx:for="{{ data }}"
+  wx:for-item="order">
+  <van-card
+  num="2"
+  tag="标签"
+  price="{{order.price}}"
+  desc="描述信息"
+  title="{{order.desc}}"
+  thumb="{{ imageURL }}"
+>
+<view slot="footer">
+  <van-button size="mini"  bindtap="rob"  >抢单</van-button>
 </view>
+</van-card>
+</van-grid>

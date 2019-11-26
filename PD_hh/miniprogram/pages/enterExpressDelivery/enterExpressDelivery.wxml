@@ -1,11 +1,8 @@
 <!--pages/enterExpressDelivery/enterExpressDelivery.wxml-->
-<van-panel title="{{headTitle}}" desc="描述信息" status="状态" use-footer-slot class="custom-class">
-  <view>内容</view>
-</van-panel>
 <van-cell-group>
-  <van-field
+ <van-field
     value="{{ message }}"
-    label="描述信息"
+    label="{{headTitle}}"
     type="textarea"
     placeholder="请输入描述信息"
     autosize
@@ -13,8 +10,8 @@
   />
    <van-field
     value="{{ username }}"
-    label="用户名"
-    placeholder="请输入用户名"
+    label="昵称"
+    placeholder="请输入昵称"
     error
   />
   <van-field
@@ -24,20 +21,13 @@
     error-message="手机号格式错误"
     border="{{ false }}"
   />
-  <van-field
-    value="{{ sms }}"
-    center
-    clearable
-    label="短信验证码"
-    placeholder="请输入短信验证码"
+   <van-field
+    value="{{ price }}"
+    label="价格"
+    placeholder="请输入价格"
     border="{{ false }}"
-    use-button-slot
-  >
-    <van-button slot="button" size="small" type="primary">发送验证码</van-button>
-  </van-field>
+  />
   <van-field size="large">
-  <!-- width: 100%; height: 90px; -->
-    <van-button slot="button" size="big" type="primary" style='padding-right: 0rpx;'>取消</van-button>
     <van-button slot="button" size="big" type="primary" style='padding-left: 4rpx;' >提交</van-button>
   </van-field>
 </van-cell-group>
